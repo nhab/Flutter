@@ -15,3 +15,5 @@
 
 ##### Testing installation
 1. In Cmd , type "flutter doctor" ,It should give the information about flutter installation and what is missing
+
+. Flutter codes can be run and tesed rapidly in the browser **without need to install Android SDK tool chain or Android Studio**
