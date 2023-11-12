@@ -66,7 +66,31 @@
 4.press f5 to run it and see the result in the debug console
 
 #### Creating flutter Project by command line
-1. Type this in cmd
+- Type this in cmd
 ```
 flutter create projectName
+ cd projectName
+ flutter analyze
+ flutter test
+ flutter run lib/main.dart
 ```
+## pub
+- pub is the package manager for dart
+- add dependency to your project using pubspec.yaml file :
+```
+...
+dependencies:
+    path: ^1.7.0
+
+    dev_dependencies:
+    ..pedantic:^1.9.0
+```
+dev_dependencies will not includeed in your app compilation
+- pub commands:
+```
+flutter pub get
+flutter pub outdated
+flutter pub upgrade	
+flutter pub add http
+```
+
