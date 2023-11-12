@@ -17,3 +17,8 @@
 1. In Cmd , type "flutter doctor" ,It should give the information about flutter installation and what is missing
 
 . Flutter codes can be run and tesed rapidly in the browser **without need to install Android SDK tool chain or Android Studio**
+#### Installing VSCode Extentions
+. Flutter ( by DartCode)
+## Creating the first project
+1. To open command palette in VSCode: Ctrl+shift+p or Menu>View> command palette
+2. Type flutter and choose new project
