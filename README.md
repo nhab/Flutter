@@ -34,16 +34,25 @@
 3.
 ```
     void main(){
-           // this will print "hi"
+       // this will print "hi"
            print("hi!");
-           // variables:
+
+       // variables:
            int    i= 5, j=null;
            double d= 3.14;
            string s= "what`s up?";
            var    t= 12.5;
-           // using a variable inside a string:
+       // using a variable inside a string:
            print("The number is $i"+d.toString());
-           // "if" , "switch" ,"for" syntax is like c language       
-    }
+       // "if" , "switch" ,"for",continue,break, functions,arrow functions, syntax is like c or c# language
+        //class defenition:
+        Class User{
+            String name;
+            String number;
+            User   (this.name,this.number); // constructor
+        }
+        // class usage:
+        User user1=User("Dvid","baker");
+        print(user1.name);
 ```
 4.press f5 to run it and see the result in the debug console
