@@ -26,4 +26,4 @@
 4. it will generate the project 
 5. In the right hand of vscode`s status bar(footer),Choose chrome instead of Windows
 6. Press F5 to run the project
-7. it will download needed files in first run.
+7. it will download needed files in first run and then runs the project.
