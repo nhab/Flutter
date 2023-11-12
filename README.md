@@ -31,10 +31,10 @@
 ## Running dart file without a prject
 1. close any folder and create a new file name something.dart
 2. copy following dart code in it and save:
-3. ```
+3.<code>
     void main(){
     print("hi!");
     }
- ```
+</code>
 
 4.press f5 to run it and see the result in the debug console
