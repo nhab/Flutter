@@ -31,7 +31,8 @@
 ## Running dart file without a prject
 1. close any folder and create a new file name something.dart
 2. copy following dart code in it and save:
-3.```
+3.
+```
     void main(){
            // this will print "hi"
            print("hi!");
@@ -45,5 +46,4 @@
            // "if" , "switch" ,"for" syntax is like c language       
     }
 ```
-
 4.press f5 to run it and see the result in the debug console
