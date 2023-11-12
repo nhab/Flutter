@@ -8,4 +8,4 @@
 6. Click Environment variable button in the opened dialog
 7. then in system variables list select "Path" and click edit
 8. Click "New" in the opened dialog, and browse for the bin folder of flutter path : c:\SDKs\Flutter\bin and ok
-9.  
+9.  Then repeat the same process for "path" in "User variables" list
