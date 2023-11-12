@@ -46,15 +46,19 @@
            double d= 3.14;
            string s= "what`s up?";
            var    t= 12.5;
+
        // using a variable inside a string:
            print("The number is $i"+d.toString());
+
        // "if" , "switch" ,"for",continue,break, functions,arrow functions, syntax is like c or c# language
-        //class defenition:
+
+       //class defenition:
         Class User{
             String name;
             String number;
             User   (this.name,this.number); // constructor
         }
+
         // class usage:
         User user1=User("Dvid","baker");
         print(user1.name);
