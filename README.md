@@ -12,3 +12,6 @@
 3. then in system variables list select "Path" and click edit
 4. Click "New" in the opened dialog, and browse for the bin folder of flutter path : c:\SDKs\Flutter\bin and ok
 5. Then repeat the same process for "path" in "User variables" list
+
+##### Testing installation
+1. In Cmd , type "flutter doctor" ,It should give the information about flutter installation and what is missing
