@@ -22,3 +22,8 @@
 ## Creating the first project
 1. To open command palette in VSCode: Ctrl+shift+p or Menu>View> command palette
 2. Type flutter and choose new project
+3. select a project type,select a Path and give a name for the project and accept to trust the created folder
+4. it will generate the project 
+5. In the right hand of vscode`s status bar(footer),Choose chrome instead of Windows
+6. Press F5 to run the project
+7. it will download needed files in first run.
