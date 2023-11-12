@@ -27,3 +27,14 @@
 5. In the right hand of vscode`s status bar(footer),Choose chrome instead of Windows
 6. Press F5 to run the project
 7. it will download needed files in first run and then runs the project.
+
+## Running dart file without a prject
+1. close any folder and create a new file name something.dart
+2. copy following dart code in it and save:
+3. ```
+    void main(){
+    print("hi!");
+    }
+ ```
+
+4.press f5 to run it and see the result in the debug console
