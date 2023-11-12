@@ -33,7 +33,17 @@
 2. copy following dart code in it and save:
 3.<pre><code>
     void main(){
-     print("hi!");
+       // this will print "hi"
+       print("hi!");
+       // variables:
+       int    i= 5, j=null;
+       double d= 3.14;
+       string s= "what`s up?";
+       var    t= 12.5;
+       // using a variable inside a string:
+       print("The number is $i"+d.toString());
+       // "if" , "switch" ,"for" syntax is like c language
+       
     }
 </code></pre>
 
