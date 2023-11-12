@@ -17,18 +17,21 @@
 1. In Cmd , type "flutter doctor" ,It should give the information about flutter installation and what is missing
 
 . Flutter codes can be run and tesed rapidly in the browser **without need to install Android SDK tool chain or Android Studio**
-#### Installing VSCode Extentions
-. Flutter ( by DartCode)
-## Creating the first project
-1. To open command palette in VSCode: Ctrl+shift+p or Menu>View> command palette
-2. Type flutter and choose new project
-3. select a project type,select a Path and give a name for the project and accept to trust the created folder
-4. it will generate the project 
-5. In the right hand of vscode`s status bar(footer),Choose chrome instead of Windows
-6. Press F5 to run the project
-7. it will download needed files in first run and then runs the project.
 
-## Running dart file without a prject
+## Creating a flutter project
+
+#### Creating a flutter project using VSCode 
+
+1.Install Flutter ( by DartCode) Extention in vscode
+2. To open command palette in VSCode: Ctrl+shift+p or Menu>View> command palette
+3. Type flutter and choose new project
+4. select a project type,select a Path and give a name for the project and accept to trust the created folder
+5. it will generate the project 
+6. In the right hand of vscode`s status bar(footer),Choose chrome instead of Windows
+7. Press F5 to run the project
+8. it will download needed files in first run and then runs the project.
+
+#### Running dart file without a prject
 1. close any folder and create a new file name something.dart
 2. copy following dart code in it and save:
 3.
@@ -56,3 +59,9 @@
         print(user1.name);
 ```
 4.press f5 to run it and see the result in the debug console
+
+#### Creating flutter Project by command line
+1. Type this in cmd
+```
+flutter create projectName
+```
